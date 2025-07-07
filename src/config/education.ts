@@ -13,11 +13,11 @@ export type EducationItemType = {
   
   export const educationList: Array<EducationItemType> = [
     {
-      school: 'Tsinghua University',
-      major: 'MBA',
+      school: 'University of Hawaii at Manoa',
+      major: 'Ph.D. in Communication and Information Sciences',
       logo: 'college',
-      start: '2017',
-      end: '2020'
+      start: '2018',
+      end: '2024'
     },
     {
       school: 'University of Chicago',
