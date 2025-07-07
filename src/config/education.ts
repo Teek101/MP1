@@ -19,18 +19,4 @@ export type EducationItemType = {
       start: '2018',
       end: '2024'
     },
-    {
-      school: 'University of Chicago',
-      major: 'Computer Science',
-      logo: 'college',
-      start: '2013',
-      end: '2015'
-    },
-    {
-      school: 'BUPT',
-      major: 'Automation',
-      logo: 'college',
-      start: '2009',
-      end: '2013'
-    },
   ]

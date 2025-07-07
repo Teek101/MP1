@@ -11,7 +11,7 @@ export const email = 'sunyinan@hawaii.edu'
 export const githubUsername = 'Teek101'
 
 // about page
-export const aboutMeHeadline = 'Who Are You and Why Should I Care?'
+export const aboutMeHeadline = 'Background and Research Interests'
 export const aboutParagraphs = [
   "My name is Yinan Sun. I'm from China and an alumna of the University of Hawaiʻi at Mānoa, where I earned my Ph.D. in Communication and Information Sciences. I'm currently a Postdoctoral Research Fellow in Information Sciences & Technology at George Mason University.",
   'Currently, I am working on projects that combine AI, digital health, and ethics of technology, developing AI-driven prediction models for personalized health interventions and exploring the societal impact of generative AI in health and education.',
