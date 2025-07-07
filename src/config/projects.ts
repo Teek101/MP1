@@ -15,21 +15,45 @@ export type ActivityItemType = {
 }
 
 // Awards
-export const awardsHeadLine = "Awards & Honors"
+export const awardsHeadLine = "Scholarships and Awards"
 export const awardsIntro = "Recognition for academic and professional achievements."
 
 export const awards: Array<ActivityItemType> = [
   {
-    name: 'Outstanding Teacher Award',
+    name: 'Achievement Award Giving Tree Funds',
     description: '',
-    date: '2024',
-    location: 'SCLS, Shanghai',
+    date: '2023-2024',
+    location: 'University of Hawaii',
   },
   {
-    name: 'Zhui Ying Award',
+    name: 'Nabumoto Tanahashi Peace Graduate Fellowship',
     description: '',
-    date: '2023',
-    location: 'Qingpu, Shanghai',
+    date: '2022-2023',
+    location: 'University of Hawaii',
+  },
+  {
+    name: 'Research Corporation of the University of Hawaii Graduate Fellowship Fund',
+    description: '',
+    date: '2022-2023',
+    location: 'University of Hawaii',
+  },
+  {
+    name: 'Frances Davis Award for Excellence in Undergraduate Teaching (nominee)',
+    description: '',
+    date: '2022-2023',
+    location: 'University of Hawaii',
+  },
+  {
+    name: 'Dai Ho Chun Fund for Graduate Fellowships',
+    description: '',
+    date: '2021-2022',
+    location: 'University of Hawaii',
+  },
+  {
+    name: 'East -West Center Foundation Scholarship',
+    description: '',
+    date: '2019-2020',
+    location: 'University of Hawaii',
   },
 ]
 
@@ -39,57 +63,81 @@ export const projectIntro = "Academic research and technical projects I've worke
 
 export const projects: Array<ProjectItemType> = [
   {
-    name: 'Student Final Project Portfolio',
-    description: 'Static website portfolio',
-    link: { href: 'scls-cs.com', label: 'GitHub Cards' },
-    tags: ['Website', 'Next.js', 'TailwindCSS', 'DaisyUI', 'Portfolio']
+    name: 'mEMA Feasibility Study in NHPI Communities',
+    description: 'Feasibility of Mobile-Based Ecological Momentary Assessment for Substance Use Monitoring in Native Hawaiian, Filipino, and Pacific Islander Communities.',
+    link: { href: '', label: 'GitHub Cards' },
+    tags: ['mEMA', 'DigitalHealth', 'PrecisionHealth', 'PersonalizedArtificialIntelligence', 'MachineLearning', 'AI', 'Healthcare', 'PublicHealth']
   },
   {
-    name: 'Seeking DNA',
-    description: '2022 SCLS Hackathon',
+    name: 'Self-Supervised Models for Hypertension Prediction',
+    description: 'The development of personalized machine learning models using self-supervised learning and human-computer interaction techniques to predict adverse health events in adults with hypertension',
+     link: { href: 'https://scls-cs.gitbook.io/scls-apcs-lab/lab5-dna', label: 'Hackathon' },
+    tags: ['SelfSupervisedLearning', 'HumanComputerInteraction', 'Machine Learning', 'AI', 'DigitalHealth']
+  },
+  {
+    name: 'Healthy Buckeyes',
+    description: 'Designing a Dyad-Based mHealth Intervention for Colorectal Cancer Survivors and Caregivers.',
     link: { href: 'https://scls-cs.gitbook.io/scls-apcs-lab/lab5-dna', label: 'Hackathon' },
-    tags: ['Hackathon', 'Java']
+    tags: ['mHealth', 'HumanCenteredDesign', 'DigitalHealthIntervention', 'CancerSurvivorship']
   },
+
   {
-    name: 'Texas Holdem Poker Judge',
-    description: '2024 SCLS Hackathon',
-    link: { href: 'https://onecompiler.com/challenges/42yf4n5yn/scls-hackathon', label: 'Hackathon' },
-    tags: ['Hackathon']
-  },
-  {
-    name: 'AI Camp Course Development',
-    description: 'Developed a comprehensive AI curriculum for high school students, incorporating real-world projects and startup concepts.',
+    name: 'Ethics of Generative AI in Education',
+    description: 'Developed a comprehensive AI curriculum for engineering students, incorporating real-world projects and startup concepts.',
     link: { href: 'https://scls-cs.gitbook.io/ai-camp', label: 'View Course' },
     tags: ['Education', 'AI']
   },
 ]
 
+
 // Hobbies & Volunteer
-export const activitiesHeadLine = "Hobbies & Volunteer"
-export const activitiesIntro = "Personal interests and community contributions."
+export const activitiesHeadLine = "Service & Volunteer"
+export const activitiesIntro = "Professional/Institutional Contributions & Community Service."
 
 export const activities: Array<ActivityItemType> = [
   {
-    name: 'Python Workshop',
+    name: 'Reviewer of International Joint Conference on Artificial Intelligence (IJCAI)',
     description:
-      'Teaching basic Python programming concepts to beginners. Covering variables, control flow, and functions.',
-    date: '2024-02-24',
-    location: 'Shanghai',
+      'Providing feedback on research papers related to artificial intelligence and machine learning.',
+    date: '2025',
+    location: 'Unitied States',
     link: 'https://example.com/python-workshop',
   },
   {
-    name: 'AI Ethics Discussion',
+    name: 'Reviewer of New Media and Society',
     description:
-      'A group discussion about the ethical implications of AI development and its impact on society.',
-    date: '2024-03-01',
-    location: 'Shanghai',
+      'Providing feedback on research papers related to social media, affordances, and ethical implication.',
+    date: '2022-2025',
+    location: 'United States',
     link: 'https://example.com/ai-ethics',
   },
   {
-    name: 'Code Review Session',
+    name: 'Reviewer of Hawaii International Conference on System Science (HICSS)',
     description:
-      'Helping students improve their coding skills through peer code review and best practices sharing.',
-    date: '2024-03-15',
-    location: 'Shanghai',
+      'Providing feedback on research papers related to system science and its applications.',
+    date: '2020-2025',
+    location: 'United States',
+  },
+  {
+    name: 'Reviewer of Conference on Human Factors in Computing Systems (CHI)',
+    description:
+      'Providing feedback on research papers related to digital health and medical internet research.',
+    date: '2023',
+    location: 'United States',
+  },
+  {
+    name: 'Reviewer of The East-West Center International Graduate Student Conference',
+    description:
+      'Providing feedback on research papers related to social media studies and human computer interaction.',
+    date: '2019-2023',
+    location: 'United States',
+  },
+  {
+    name: 'Conference on Human Factors in Computing Systems (CHI) Volunteer',
+    description:
+      'Providing support and assistance during the conference.',
+    date: '2024',
+    location: 'Honolulu, United States',
   },
 ]
+

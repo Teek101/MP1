@@ -19,7 +19,7 @@ export const careerList: Array<CareerItemType> = [
     {
       company: 'Hawaii Digital Health Lab',
       title: 'Graduate Research Assistant',
-      logo: 'college,',
+      logo: 'college',
       start: '2023',
       end: '2024'
     },

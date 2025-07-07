@@ -21,7 +21,7 @@ export const aboutParagraphs = [
 // blog
 export const blogHeadLine = "What I've thinking about."
 export const blogIntro =
-  "I've written something about AI, programming and life."
+  "A better way to solve a problem that hasn’t happened yet."
 
 // social links
 export type SocialLinkType = {
