@@ -1,75 +1,51 @@
 ---
-title: 'My LLM Codegen Workflow'
-description: 'A practical guide to using LLMs for efficient software development'
-date: '2025-02-16'
+title: 'My Publications'
+description: 'My Publications'
+date: '2025-07-06'
 ---
 
-# My LLM Codegen Workflow
+# Selected Publications
 
-tl;dr; Brainstorm spec, then plan a plan, then execute using LLM codegen. Discrete loops. Then magic. ✩₊˚.⋆☾⋆⁺₊✧
+1. Sun, Y., & Suthers, D. (2025). Evolution of social media usage: A study of Chinese college
+students on WeChat. In Proceedings of the 58th Hawaii International Conference on System
+Sciences.
+2. Sun, Y., & Suthers, D. (2024). WeChat culture in transition: Navigating platform, user, and
+tradition. In Proceedings of the 57th Hawaii International Conference on System Sciences.
+3. Sun, Y., & Suthers, D. (2024). Exploring values embedded within social media platforms: A
+case study of WeChat. In Proceedings of the 57th Hawaii International Conference on System
+Sciences.
+4. Sun, Y., Kargarandehkordi, A., Slade, C., Jaiswal, A., Busch, G., Guerrero, A., ... & Washington,
+P. (2024). Personalized deep learning for substance use in Hawaii: Protocol for a passive
+sensing and ecological momentary assessment study. JMIR Research Protocols, 13(1), e46493.
+5. Sun, Y., & Suthers, D. D. (2023). From affordances to cultural affordances: An analytic
+framework for tracing the dynamic interaction among technology, people, and culture.
+Cultures of Science.
+6. Sun, Y., & Suthers, D. (2022, January). Examining cultural and technological change: A study
+of cultural affordances on WeChat. In Proceedings of the 55th Hawaii International Conference
+on System Sciences.
+7. Sun, Y., & Suthers, D. (2021, January). Cultural affordances and social media. In Proceedings of
+the 54th Hawaii International Conference on System Sciences (p. 3017).
+8. Qian, Y., Sun, Y., Kargarandehkordi, A., Mutlu, O. C., Surabhi, S., Chen, P., Jabbar, Z., Wall, D.
+P., & Washington, P. (2024). TikTokActions: A TikTok-derived video dataset for human action
+recognition. arXiv preprint arXiv:2402.08875.
+9. Li, S., Fan, C., Kargarandehkordi, A., Sun, Y., Slade, C., Jaiswal, A., ... & Washington, P. (2024).
+Monitoring substance use with Fitbit biosignals: A case study on training deep learning
+models using ecological momentary assessments and passive sensing. AI, 5(4), 2725–2738.
+10. Gardasevic, S., Jaiswal, A., Lamba, M., Funakoshi, J., Chu, K. H., Shah, A., Sun, Y., ... &
+Washington, P. (2024). Public health using social network analysis during the COVID-19 era: A
+systematic review. Information, 15(11), 690.
 
-## The Process
+## Selected Papers in Progress 
 
-Here's my current workflow for using LLMs in software development. It's built upon personal experience and conversations with fellow developers. Note that in the fast-moving world of AI, what works today might need adjustment tomorrow.
+1. Systematic Review of the Influence of Sociocultural Determinants of Health on Mobile-based
+Ecological Momentary Assessment Studies (Under review of JMIR)
+2. Dis-affordances on Social Media: A Case Study of WeChat  (Under review of HICSS)
+3. The Narrative Construction of Generative AI Efficacy by the Media: A Case Study of the Role of
+ChatGPT in Higher Education (Under review of International Journal of Communication)
 
-### Step 1: Idea Refinement
+### Selected Presentations & Workshop
 
-Start with a conversational LLM (like ChatGPT-4) and use this prompt:
+1. Sun, Y. (2025, February). “Understanding the Social Network of WeChat,” ECREA Communication History Workshop.
+2. Sun, Y. (2023, April). “Appropriating Social Media: The Evolving Utilization of WeChat Among College Students ” Presented at SPAS, School of Pacific and Asian Studies, University of Hawaiʻi at Mānoa.
+3. Sun, Yinan. (2021, May). “Cultural Affordance and Social Media.” Presented at the International Conference of the Digital Humanities Association of Nigeria (ICDHAN).
 
-```
-Ask me one question at a time so we can develop a thorough, step-by-step spec for this idea. Each question should build on my previous answers, and our end goal is to have a detailed specification I can hand off to a developer. Let's do this iteratively and dig into every relevant detail. Remember, only one question at a time.
-
-Here's the idea: <Your Idea>
-```
-
-After the brainstorming concludes, ask for a comprehensive spec:
-
-```
-Now that we've wrapped up the brainstorming process, can you compile our findings into a comprehensive, developer-ready specification? Include all relevant requirements, architecture choices, data handling details, error handling strategies, and a testing plan.
-```
-
-Save this as `spec.md` in your repo. This spec can be used for multiple purposes:
-- Code generation
-- Idea validation
-- White paper generation
-- Business model creation
-- Deep research foundation
-
-### Step 2: Planning
-
-Take your spec to a reasoning model and use one of these prompts based on your needs:
-
-For Test-Driven Development:
-```
-Draft a detailed, step-by-step blueprint for building this project. Break it down into small, iterative chunks that build on each other. Make sure the steps are small enough to be implemented safely with strong testing, but big enough to move the project forward.
-
-The output should provide a series of prompts for a code-generation LLM that will implement each step in a test-driven manner. Prioritize best practices, incremental progress, and early testing.
-
-Make sure each prompt builds on previous ones and ends with proper integration. No orphaned code!
-```
-
-For Regular Development:
-```
-Draft a detailed, step-by-step blueprint for building this project. Break it down into small, iterative chunks that build on each other. Make sure the steps are small enough to be implemented safely but big enough to move the project forward.
-
-The output should provide a series of prompts for a code-generation LLM that will implement each step. Prioritize best practices and incremental progress.
-
-Make sure each prompt builds on previous ones and ends with proper integration. No orphaned code!
-```
-
-Save the resulting plan as `prompt_plan.md` and generate a `todo.md` checklist to track progress.
-
-## Time Investment
-
-This entire planning process typically takes about 15 minutes. The investment in proper planning pays off significantly during the implementation phase, leading to more structured and maintainable code.
-
-## Why This Works
-
-This approach provides several benefits:
-1. Clear documentation from the start
-2. Well-structured development plan
-3. Manageable, testable steps
-4. Consistent progress tracking
-5. Reduced complexity in each development phase
-
-Remember: The key is in the iterative nature of the process. Each step builds on the previous one, ensuring that you're always moving forward with a clear understanding of what needs to be done next.
