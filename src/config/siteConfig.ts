@@ -22,8 +22,8 @@ export const footerItems: Array<NavItemType> = [
     href: '/projects'
   },
   {
-    name: 'Blogs',
-    href: '/blogs'
+    name: 'Publications',
+    href: '/publications'
   }
 ]
 
@@ -41,7 +41,7 @@ export const navItems: Array<NavItemType> = [
     href: '/projects'
   },
   {
-    name: 'Blogs',
-    href: '/blogs'
+    name: 'Publications',
+    href: '/publications'
   }
 ]

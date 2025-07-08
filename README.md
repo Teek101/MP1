@@ -79,7 +79,7 @@ After getting your site running, you can customize it by modifying these files:
 - `src/config/siteConfig.ts` - Site configuration
 - `src/config/infoConfig.ts` - Personal information
 - `src/config/*.ts` - Section-specific configurations
-- `src/content/blog/**.mdx` - Blog content
+- `src/content/publications/**.mdx` - Blog content
 - `public/github-contribution-snake/*.svg` - GitHub contribution visualization
 
 ## Need Help?
